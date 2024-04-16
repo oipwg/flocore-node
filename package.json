@@ -36,7 +36,7 @@
     "commander": "^2.8.1",
     "errno": "^0.1.4",
     "express": "^4.13.3",
-    "fcoin": "^1.1.4",
+    "fcoin": "^1.1.7",
     "flocore-lib": "^0.15.2",
     "flocore-message": "^1.0.7",
     "flocore-p2p": "^5.0.0-beta.8",
