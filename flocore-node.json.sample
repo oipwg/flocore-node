@@ -1,34 +1,32 @@
 {
-  "network": "testnet",
-  "port": 3001,
-  "datadir": "/tmp",
+  "version": "5.0.10",
+  "network": "livenet",
+  "port": 80,
   "services": [
-    "p2p",
-    "db",
-    "header",
-    "block",
-    "mempool",
     "address",
-    "transaction",
-    "timestamp",
+    "block",
+    "db",
     "fee",
-    "insight-api",
+    "header",
+    "mempool",
+    "p2p",
+    "timestamp",
+    "transaction",
+    "flosight-api",
+    "flosight-ui",
     "web"
   ],
+  "datadir": "/data",
   "servicesConfig": {
-    "insight-api": {
-      "routePrefix": "api",
+    "flosight-api": {
       "disableRateLimiter": true,
-      "enableCache": true
+      "routePrefix": "api",
+      "cwdRequirePath": "node_modules/flosight-api"
     },
-    "fee": {
-      "rpc": {
-        "user": "local",
-        "pass": "local",
-        "host": "localhost",
-        "protocol": "http",
-        "port": 18332
-      }
+    "flosight-ui": {
+      "routePrefix": "",
+      "apiPrefix": "api",
+      "cwdRequirePath": "node_modules/flosight-ui"
     }
   }
 }
