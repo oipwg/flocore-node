@@ -1,23 +1,25 @@
 # Use a specific version of node on Alpine for better predictability
-FROM node:10.24.1-alpine3.11
+FROM node:22-alpine
 
 # Install Python 2.7 and build dependencies necessary for native modules
 # Make and g++ are required for node-gyp, git for packages that may need to pull via git
 RUN apk --no-cache add \
-    python2 \
+    python3 \
     make \
     g++ \
     git \
-    && npm install -g node-gyp@latest
+    curl \
+    tar
 
 WORKDIR /app
 
 # Copy package.json and package-lock.json (or npm-shrinkwrap.json) first for better cache utilization
-COPY package*.json ./
+COPY package.json ./
+COPY yarn.lock ./
 
-# Ensure npm uses Python 2.7 for compatibility with older gyp files
-RUN npm config set python /usr/bin/python2 \
-    && npm install 
+RUN yarn
+
+RUN mkdir /data
 
 # Copy the rest of the application
 COPY . .
