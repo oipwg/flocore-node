@@ -1791,10 +1791,10 @@ flosight-api@^5.0.0-beta.75:
     morgan "^1.7.0"
     request "^2.64.0"
 
-flosight-ui@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/flosight-ui/-/flosight-ui-5.2.0.tgz#7238b42c8cdc4c3c3f3f066b180a2ea71b1e15b1"
-  integrity sha512-ecc/AZfA1MnAyQBhOSTpVErdL+M+eqwxw/POF2C3mLqZhbO4OhSN0733f5ujjHWUB+XCSbxpKEcjuEy7jMJOwg==
+flosight-ui@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/flosight-ui/-/flosight-ui-5.3.0.tgz#a0faeb376bc28bbaef11608b59861f0b2e78951a"
+  integrity sha512-Z8Tg8N02uHvPcRYGV9zM49E2+59v7jDkxwtI1FNW9OgVqhQEQpPQEQ6meuUiirm2Uij5oSNEcI+m67aZz6eBjg==
   dependencies:
     "@bower_components/angular" angular/bower-angular#~1.2.13
     "@bower_components/angular-animate" angular/bower-angular-animate#~1.2.13

@@ -1,15 +1,17 @@
 # Use a specific version of node on Alpine for better predictability
-FROM node:22-alpine
+FROM --platform=linux/amd64 node:22-alpine
 
 # Install Python 2.7 and build dependencies necessary for native modules
 # Make and g++ are required for node-gyp, git for packages that may need to pull via git
+# bind-tools adds `nslookup` and `dig` for debugging dns entries
 RUN apk --no-cache add \
     python3 \
     make \
     g++ \
     git \
     curl \
-    tar
+    tar \
+    bind-tools
 
 WORKDIR /app
 
