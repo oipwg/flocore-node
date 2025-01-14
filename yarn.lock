@@ -2,61 +2,61 @@
 # yarn lockfile v1
 
 
-"@bower_components/angular-animate@github:angular/bower-angular-animate#~1.2.13":
+"@bower_components/angular-animate@angular/bower-angular-animate#~1.2.13":
   version "1.2.32"
   resolved "https://codeload.github.com/angular/bower-angular-animate/tar.gz/8ce2578f2fba61d1334424c0708776b1f7a33068"
 
-"@bower_components/angular-bootstrap@github:angular-ui/bootstrap-bower#~0.10.0":
+"@bower_components/angular-bootstrap@angular-ui/bootstrap-bower#~0.10.0":
   version "0.0.0"
   resolved "https://codeload.github.com/angular-ui/bootstrap-bower/tar.gz/f486d33d6f4c60d905ed0792eacbba2456a32b87"
 
-"@bower_components/angular-gettext@github:rubenv/angular-gettext#~1.1.0":
+"@bower_components/angular-gettext@rubenv/angular-gettext#~1.1.0":
   version "1.1.4"
   resolved "https://codeload.github.com/rubenv/angular-gettext/tar.gz/fcf3483414a8b40c27c20c5244f9ae272e3e9251"
 
-"@bower_components/angular-moment@github:urish/angular-moment#~0.8.0":
+"@bower_components/angular-moment@urish/angular-moment#~0.8.0":
   version "0.8.3"
   resolved "https://codeload.github.com/urish/angular-moment/tar.gz/585547e63f9170a39fe631590b3ef2827666efec"
   dependencies:
     moment ">=2.0.0 <2.9.0"
 
-"@bower_components/angular-resource@github:angular/bower-angular-resource#~1.2.13":
+"@bower_components/angular-resource@angular/bower-angular-resource#~1.2.13":
   version "1.2.32"
   resolved "https://codeload.github.com/angular/bower-angular-resource/tar.gz/7dfe1d4272d09554bf4fc1f1b783b04281735a35"
 
-"@bower_components/angular-route@github:angular/bower-angular-route#~1.2.13":
+"@bower_components/angular-route@angular/bower-angular-route#~1.2.13":
   version "1.2.32"
   resolved "https://codeload.github.com/angular/bower-angular-route/tar.gz/1c0180fc45e5f50967cb759d36914cadc17b9437"
 
-"@bower_components/angular-ui-utils@github:angular-ui/ui-utils#~0.1.1":
+"@bower_components/angular-ui-utils@angular-ui/ui-utils#~0.1.1":
   version "0.0.0"
   resolved "https://codeload.github.com/angular-ui/ui-utils/tar.gz/e25586548ff0a61df63bd4eb8fdc0715b1a87e72"
 
-"@bower_components/angular@github:angular/bower-angular#~1.2.13":
+"@bower_components/angular@angular/bower-angular#~1.2.13":
   version "1.2.32"
   resolved "https://codeload.github.com/angular/bower-angular/tar.gz/03da9924cb2717a4bbe575241cc66f5e2ebbf54f"
 
-"@bower_components/bootstrap@github:twbs/bootstrap#~3.1.1":
+"@bower_components/bootstrap@twbs/bootstrap#~3.1.1":
   version "3.1.1"
   resolved "https://codeload.github.com/twbs/bootstrap/tar.gz/a365d8689c3f3cee7f1acf86b61270ecca8e106d"
 
-"@bower_components/jquery@github:jquery/jquery-dist#>= 1.9.0":
+"@bower_components/jquery@jquery/jquery-dist#>= 1.9.0":
   version "3.7.1"
   resolved "https://codeload.github.com/jquery/jquery-dist/tar.gz/fde1f76e2799dd877c176abde0ec836553246991"
 
-"@bower_components/moment@github:moment/moment#>=2.0.0 <2.9.0":
+"@bower_components/moment@moment/moment#>=2.0.0 <2.9.0":
   version "2.8.4"
   resolved "https://codeload.github.com/moment/moment/tar.gz/2f9b330eb35a38184fd7239749c7f0feef6c5146"
 
-"@bower_components/momentjs@github:moment/moment#~2.5.1":
+"@bower_components/momentjs@moment/moment#~2.5.1":
   version "2.5.1"
   resolved "https://codeload.github.com/moment/moment/tar.gz/abc3a14b2ed7c9f4ff420395f3e1f198459528d8"
 
-"@bower_components/ngprogress@github:VictorBjelkholm/ngProgress#~1.0.4":
+"@bower_components/ngprogress@VictorBjelkholm/ngProgress#~1.0.4":
   version "1.0.7"
   resolved "https://codeload.github.com/VictorBjelkholm/ngProgress/tar.gz/71b88e226b6c5cfc8e39beae514d183ac6891837"
 
-"@bower_components/zeroclipboard@github:lisposter/angular-zeroclipboard#~0.3.2":
+"@bower_components/zeroclipboard@lisposter/angular-zeroclipboard#~0.3.2":
   version "0.0.0"
   resolved "https://codeload.github.com/lisposter/angular-zeroclipboard/tar.gz/70ab4f8d34bd493b653ab11a1a958121b14d01de"
 
@@ -1635,10 +1635,42 @@ fcoin@1.1.0:
     mrmr "~0.1.8"
     n64 "~0.2.10"
 
-fcoin@^1.1.1, fcoin@^1.2.0:
+fcoin@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/fcoin/-/fcoin-1.2.0.tgz#35399fedfa3701664aece1522c5b122d71978a74"
   integrity sha512-UQwPojIJ4ZhCpfaAIJZ2LThnYCh5hX95+2j0fKXMVssCOVEfCGhJadPJfz/o//W0GQ5W0TgfW9kqU8B9lE4WtA==
+  dependencies:
+    "@oipwg/fclient" "0.1.7"
+    bcfg "0.1.6"
+    bcrypto "5.5.2"
+    bdb "1.4.0"
+    bdns "0.1.5"
+    bevent "0.1.5"
+    bfile "0.2.1"
+    bfilter "1.0.5"
+    bheep "0.1.5"
+    binet "0.3.5"
+    blgr "0.1.7"
+    blru "0.1.6"
+    blst "0.1.5"
+    bmutex "git+https://github.com/oipwg/bmutex.git#master"
+    bsert "0.0.13"
+    bsip "0.1.9"
+    bsock "0.1.9"
+    bsocks "0.2.5"
+    bstring "0.3.9"
+    btcp "0.1.5"
+    buffer-map "0.0.7"
+    bufio "1.0.6"
+    bupnp "0.2.6"
+    bval "0.1.6"
+    bweb "0.1.9"
+    n64 "0.2.10"
+
+fcoin@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/fcoin/-/fcoin-1.2.3.tgz#8ec0d259455d5f6e2f465a276bca82823d42b3d1"
+  integrity sha512-zYRvX9MSDbSDb8W1eYxslF7b+MX2VRuY1mAdUmAfGcXRIftMudvC8dE3i1KBQVQVefj9+Y8Gq/ZkhJWKv7sSTw==
   dependencies:
     "@oipwg/fclient" "0.1.7"
     bcfg "0.1.6"

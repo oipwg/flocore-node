@@ -1,4 +1,12 @@
 #!/bin/sh
+cleanup() {
+  echo "Performing graceful shutdown..."
+  kill -2 $(cat /data/flosight.pid)
+  wait $(cat /data/flosight.pid)
+}
+# Trap SIGTERM and call the cleanup function for graceful shutdown
+trap 'cleanup' SIGTERM
+
 cd /app
 
 mkdir /data
