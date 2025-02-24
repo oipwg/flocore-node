@@ -1806,10 +1806,10 @@ florincoind-rpc@0.7.1:
   resolved "https://registry.yarnpkg.com/florincoind-rpc/-/florincoind-rpc-0.7.1.tgz#4f13295c9a0c9ae1ebac92ca55da461630d4466e"
   integrity sha512-tc4YSdA0H/xSJCuOAqMVYmDdGTXUQzS69Oq0yU8NUBn+HI8PWEwh7yHOkh2XqiSXxigGpBeFEWqsTSAQXAmDqQ==
 
-flosight-api@^5.0.0-beta.75:
-  version "5.0.0-beta.75"
-  resolved "https://registry.yarnpkg.com/flosight-api/-/flosight-api-5.0.0-beta.75.tgz#0e13c1f36a10014a870f4da18b1f6eda19c35305"
-  integrity sha512-rhWjrHkCbF+bQ9E4G0wL7OdyNil4oAYjghVEnmn+lN5XJv6ea5a94wVFTu97w1LNDqtzfZsiymVBh3o11cFrPw==
+flosight-api@^5.1.1-beta.1:
+  version "5.1.1-beta.1"
+  resolved "https://registry.yarnpkg.com/flosight-api/-/flosight-api-5.1.1-beta.1.tgz#23215d59c131a9e79c81c7b8e7a39a6de9d70e52"
+  integrity sha512-zH0YkjZdVudAP83J64yZadsc57IGxzORRUp3DbL7UhokaIJQ7naovnpIkfKj/m2zJfNfOpck+PdIiZxdw09ywQ==
   dependencies:
     JSONStream "^1.3.1"
     async "*"
